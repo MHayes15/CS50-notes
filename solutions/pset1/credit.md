@@ -1,14 +1,14 @@
 <pre>
 // messy, I know - but it works!
-#include <stdio.h>
-#include <cs50.h>
+#include \<stdio.h\>
+#include \<cs50.h\>
 
-long long get_cc_number(void);
+long long get\_cc\_number(void);
 long long luhn(void);
-int get_last_digits(void);
-long long cc_number;
-int digit_count = 0;
-long long first_digits;
+int get\_last\_digits(void);
+long long cc\_number;
+int digit\_count = 0;
+long long first\_digits;
 
 int main(void)
 {
@@ -52,7 +52,7 @@ int main(void)
     }
 }
 
-long long get_cc_number(void)
+long long get\_cc\_number(void)
 {
     long long number;
     do
