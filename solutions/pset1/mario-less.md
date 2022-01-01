@@ -1,4 +1,5 @@
-'''#include <stdio.h>
+<pre>
+#include <stdio.h>
 #include <cs50.h>
 
 int main(void) 
@@ -23,4 +24,4 @@ int main(void)
         printf("\n");
     }
 }
-'''
+</pre>

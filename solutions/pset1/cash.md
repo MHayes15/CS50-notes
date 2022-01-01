@@ -1,4 +1,5 @@
-'''// expanded on this, program also tells you how much of each coin is owed
+<pre>
+// expanded on this, program also tells you how much of each coin is owed
 #include <stdio.h>
 #include <cs50.h>
 #include <math.h>
@@ -52,4 +53,4 @@ float get_cents(void)
     input = round(input * 100);
     return input;
 }
-'''
+</pre>

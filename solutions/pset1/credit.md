@@ -1,4 +1,4 @@
-'''
+<pre>
 // messy, I know - but it works!
 #include <stdio.h>
 #include <cs50.h>
@@ -98,4 +98,4 @@ long long luhn(void)
     total = msum + sum;
     return total;
 }
-'''
+</pre>
