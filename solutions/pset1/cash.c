@@ -1,10 +1,9 @@
-<pre>
 // expanded on this, program also tells you how much of each coin is owed
-#include <\stdio.h\>
-#include <\cs50.h\>
-#include <\math.h\>
+#include <stdio.h>
+#include <cs50.h>
+#include <math.h>
 
-float get\_cents(void);
+float get_cents(void);
 
 int main(void)
 {
@@ -42,7 +41,7 @@ int main(void)
     printf("Pennies: %i\n", pennies);
 }
 
-float get\_cents(void)
+float get_cents(void)
 {
     float input;
     do 
@@ -53,4 +52,3 @@ float get\_cents(void)
     input = round(input * 100);
     return input;
 }
-</pre>

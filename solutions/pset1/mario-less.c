@@ -1,6 +1,5 @@
-<pre>
-#include '''<stdio.h>'''
-#include '''<cs50.h\>'''
+#include <stdio.h>
+#include <cs50.h\>
 
 int main(void) 
 {
@@ -24,4 +23,4 @@ int main(void)
         printf("\n");
     }
 }
-</pre>
+
